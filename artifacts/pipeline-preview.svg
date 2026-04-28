@@ -1,0 +1,46 @@
+<svg viewBox="0 0 980 450" xmlns="http://www.w3.org/2000/svg" style="max-width:980px;width:100%">
+<rect width="980" height="450" fill="#181b20"/>
+<text x="490" y="28" text-anchor="middle" fill="#14b8a6" font-size="14" font-weight="700">리모델링 실행 파이프라인 (Critical Path)</text>
+
+<g font-size="10" font-weight="600">
+<rect x="30" y="60" width="150" height="58" rx="8" fill="rgba(20,184,166,.12)" stroke="#14b8a6"/><text x="105" y="84" text-anchor="middle" fill="#14b8a6">0. 착수 준비</text><text x="105" y="100" text-anchor="middle" fill="#7dd3c7">실측·예산·안전·전기외주</text>
+
+<rect x="210" y="60" width="150" height="58" rx="8" fill="rgba(245,158,11,.12)" stroke="#f59e0b"/><text x="285" y="84" text-anchor="middle" fill="#f59e0b">1. 지붕/상판</text><text x="285" y="100" text-anchor="middle" fill="#d6b87a">누수원인 제거</text>
+
+<rect x="390" y="60" width="150" height="58" rx="8" fill="rgba(236,72,153,.12)" stroke="#ec4899"/><text x="465" y="84" text-anchor="middle" fill="#ec4899">1+. 외장도장</text><text x="465" y="100" text-anchor="middle" fill="#f0a6cb">외피 보호막 형성</text>
+
+<rect x="570" y="60" width="150" height="58" rx="8" fill="rgba(59,130,246,.12)" stroke="#3b82f6"/><text x="645" y="84" text-anchor="middle" fill="#60a5fa">2. 창호/문</text><text x="645" y="100" text-anchor="middle" fill="#9bbcf6">기밀·단열 경계 확정</text>
+
+<rect x="750" y="60" width="200" height="58" rx="8" fill="rgba(239,68,68,.12)" stroke="#ef4444"/><text x="850" y="84" text-anchor="middle" fill="#ef4444">3. 내부 철거</text><text x="850" y="100" text-anchor="middle" fill="#fca5a5">숨은 하자 노출·정리</text>
+
+<rect x="110" y="190" width="180" height="58" rx="8" fill="rgba(59,130,246,.12)" stroke="#3b82f6"/><text x="200" y="214" text-anchor="middle" fill="#60a5fa">4. 전기 배선/분전</text><text x="200" y="230" text-anchor="middle" fill="#9bbcf6">배관·회로·안전확인</text>
+
+<rect x="320" y="190" width="180" height="58" rx="8" fill="rgba(139,92,246,.12)" stroke="#8b5cf6"/><text x="410" y="214" text-anchor="middle" fill="#a78bfa">5. 천장·바닥 골조</text><text x="410" y="230" text-anchor="middle" fill="#c4b5fd">수평·단열 기반</text>
+
+<rect x="530" y="190" width="180" height="58" rx="8" fill="rgba(34,197,94,.12)" stroke="#22c55e"/><text x="620" y="214" text-anchor="middle" fill="#4ade80">6. 벽체 마감</text><text x="620" y="230" text-anchor="middle" fill="#86efac">필름합판 덧방</text>
+
+<rect x="740" y="190" width="180" height="58" rx="8" fill="rgba(245,158,11,.12)" stroke="#f59e0b"/><text x="830" y="214" text-anchor="middle" fill="#fbbf24">7. 부엌</text><text x="830" y="230" text-anchor="middle" fill="#fde68a">싱크·상판·수납</text>
+
+<rect x="250" y="320" width="220" height="58" rx="8" fill="rgba(6,182,212,.12)" stroke="#06b6d4"/><text x="360" y="344" text-anchor="middle" fill="#06b6d4">8. 설비(급배수/환기)</text><text x="360" y="360" text-anchor="middle" fill="#67e8f9">압력·누수·배수 테스트</text>
+
+<rect x="510" y="320" width="200" height="58" rx="8" fill="rgba(6,182,212,.12)" stroke="#06b6d4"/><text x="610" y="344" text-anchor="middle" fill="#06b6d4">9. 욕실</text><text x="610" y="360" text-anchor="middle" fill="#67e8f9">방수·타일·기구설치</text>
+
+<rect x="740" y="320" width="210" height="58" rx="8" fill="rgba(20,184,166,.12)" stroke="#14b8a6"/><text x="845" y="344" text-anchor="middle" fill="#2dd4bf">10. 인수·점검</text><text x="845" y="360" text-anchor="middle" fill="#7dd3c7">통합 시운전 + 하자체크</text>
+</g>
+
+<g stroke="#14b8a6" stroke-width="2" fill="none" marker-end="url(#arr)">
+<defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#14b8a6"/></marker></defs>
+<line x1="180" y1="89" x2="210" y2="89"/><line x1="360" y1="89" x2="390" y2="89"/><line x1="540" y1="89" x2="570" y2="89"/><line x1="720" y1="89" x2="750" y2="89"/>
+<path d="M850 118 L850 150 L200 150 L200 190"/>
+<line x1="290" y1="219" x2="320" y2="219"/><line x1="500" y1="219" x2="530" y2="219"/><line x1="710" y1="219" x2="740" y2="219"/>
+<path d="M830 248 L830 290 L360 290 L360 320"/>
+<line x1="470" y1="349" x2="510" y2="349"/><line x1="710" y1="349" x2="740" y2="349"/>
+</g>
+
+<g stroke="#f59e0b" stroke-dasharray="5,4" stroke-width="1.5" fill="none">
+<path d="M645 118 L645 160 L620 160 L620 190"/>
+<path d="M620 248 L620 290 L610 290 L610 320"/>
+</g>
+<text x="40" y="415" fill="#14b8a6" font-size="10">실선: 필수 선행(critical path)</text>
+<text x="290" y="415" fill="#f59e0b" font-size="10">점선: 병렬·조건부 진행(현장 여건 충족 시)</text>
+</svg>

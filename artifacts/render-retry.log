@@ -1,0 +1,13 @@
+[2026-04-28T00:59:55Z] Render retry started
+[2026-04-28T00:59:55Z] Try 1/3: playwright chromium install
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+npm error code E403
+npm error 403 403 Forbidden - GET https://registry.npmjs.org/playwright
+npm error 403 In most cases, you or one of your dependencies are requesting
+npm error 403 a package version that is forbidden by your security policy, or
+npm error 403 on a server you do not have access to.
+npm error A complete log of this run can be found in: /root/.npm/_logs/2026-04-28T00_59_56_133Z-debug-0.log
+[2026-04-28T00:59:56Z] Playwright chromium install failed
+[2026-04-28T00:59:57Z] wkhtmltoimage not found, skip
+[2026-04-28T00:59:57Z] FALLBACK: copied SVG preview to artifacts/pipeline-preview.svg
+[2026-04-28T00:59:57Z] No PNG screenshot generated in this environment
